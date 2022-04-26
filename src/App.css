@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+  margin: 10px 10px 10px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: rgba(58, 84, 84, 0.09);
+}
+header {
+  color: #000000;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 30px;
+}
+a {
+  text-decoration: none;
+  color: #585e96;
+}
